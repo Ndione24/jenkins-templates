@@ -1,5 +1,5 @@
 
-def call(Map args = [:]){
+def call(Map params = [:]){
 
     pipeline{
         agent any
@@ -7,7 +7,7 @@ def call(Map args = [:]){
             stage('Build'){
                 steps{
                     echo "Building"
-                    echo "Converted to uppercase: ${Utils.toUpperCase(name)}"
+                    echo "Converted to uppercase: ${Utils.toUpperCase(params.name)}"
                 }
             }
             stage('Test'){
