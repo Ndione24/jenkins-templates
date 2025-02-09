@@ -1,4 +1,3 @@
-package com.exemple;
 
 class Utils {
 

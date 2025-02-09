@@ -1,4 +1,3 @@
-import com.exemple.Utils;
 
 def call(Map args = [:]){
 
