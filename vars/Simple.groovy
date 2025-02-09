@@ -1,4 +1,4 @@
-import com.example.Utils
+import com.exemple.Utils
 
 def call(){
 
